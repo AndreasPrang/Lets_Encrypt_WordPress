@@ -1,4 +1,4 @@
-# Lets_Encrypt_WordPress
+# Docker-App: WordPress with SSL-Offloader and Let's Encrypt
 WordPress with Let's Encrypt
 
 
