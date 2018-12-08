@@ -4,7 +4,7 @@ WordPress with Let's Encrypt
 
 ## Dependencies:
 - Install Docker-App (announced at DockerCon 18 Europe): https://github.com/docker/app
-- Let`s encrypt needs a publicly accessible domain.
+- Let`s encrypt needs a publicly accessible domain to issue certificates.
 
 ## Start Docker App
 ```
