@@ -2,4 +2,10 @@
 WordPress with Let's Encrypt
 
 
-Start with 'docker-compose up -d'
+## Dependencies:
+Install Docker-App (announced at DockerCon 18 Europe): https://github.com/docker/app
+
+## Start Docker App
+```
+docker-app render --set domain=<my.domain.ltd> --set email=<mail@domain.ltd> --set letsencrypt_test=<true|false>  | docker-compose -f - up -d
+```
