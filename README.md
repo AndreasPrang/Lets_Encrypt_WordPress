@@ -17,5 +17,7 @@ docker-app render --set data_path=</persistant/data/path> \
                   --set domain=<my.domain.ltd> \
                   --set email=<mail@domain.ltd> \
                   --set letsencrypt_test=<true|false>  \
+                  --set mysql_root_password=<password> \
+                  --set mysql_password=<password> \
                   | docker-compose -f - up -d
 ```
