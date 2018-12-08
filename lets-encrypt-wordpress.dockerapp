@@ -82,10 +82,10 @@ networks:
 ---
 # This section contains the default values for your application parameters.
 {
-    domain: ssl.andreasprang.de,
-    email: writeAmail@me.com,
+    domain: my.domain.ltd,
+    email: mail@domain.ltd,
     letsencrypt_test: true,
     mysql_root_password: wordpress,
     mysql_password: wordpress,
-    data_path: /opt/wordpress
+    data_path: /var/wordpress
 }
